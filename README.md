@@ -1,4 +1,4 @@
-# LimGen v2 – Multi-Agent Limitation & Novelty Analysis
+# LimAgents with NovAgents – Multi-Agent Limitation & Novelty Analysis
 
 Upload a research paper and analyze its limitations using 13+ AI agents across two pipelines, then merge the results.
 
