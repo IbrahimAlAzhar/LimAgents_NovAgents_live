@@ -32,8 +32,8 @@ app = FastAPI(title="LimAgents + NovAgents API")
 # ═══════════════════════════════════════════════════════════════
 # PINECONE CONFIG — Hardcoded (safe: reads are free, no cost to you)
 # ═══════════════════════════════════════════════════════════════
-PINECONE_API_KEY = "YOUR_PINECONE_API_KEY_HERE"   # <-- PASTE YOUR PINECONE KEY HERE
-PINECONE_INDEX_NAME = "limgen-papers"              # <-- YOUR INDEX NAME HERE
+PINECONE_API_KEY = "pcsk_759okE_9MSGE2FGgxFW1PiLsp8xGjwjx65dxkDjgyYZpxo3z61JaBLnrzP9xZpobfQNGKp"  
+PINECONE_INDEX_NAME = "limgen-papers"              
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 SAFE_TOKEN_LIMIT = 44_000
